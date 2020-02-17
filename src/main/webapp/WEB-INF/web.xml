@@ -4,4 +4,18 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>xinchenh</servlet-name>
+    <servlet-class>
+      org.springframework.web.servlet.DispatcherServlet
+    </servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>xinchenh</servlet-name>
+    <url-pattern>*.htm</url-pattern>
+  </servlet-mapping>
+
+
+
 </web-app>
